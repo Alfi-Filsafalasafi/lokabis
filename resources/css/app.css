@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@layer {
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .font-poppins {
+        font-family: 'Poppins', sans-serif;
+    }
+    .font-playfair-display {
+        font-family: 'Playfair Display', serif;
+    }
+    /* .bg-gradient-secondary {
+        background: linear-gradient(179.38deg, rgba(122, 27, 125, 0.19) 0.54%, rgba(217, 217, 217, 0) 163.44%);
+    } */
+}
